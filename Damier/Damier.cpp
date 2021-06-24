@@ -1,19 +1,8 @@
 #include <iostream>
-#include "FeuTricolore.h"
+#include "Carrefour.h"
 
 int main() {
-    FeuTricolore f1, f2;
+    Carrefour c;
 
-    f1.couleurSuivante();
-    f1.couleurSuivante();
-    f1.couleurSuivante();
-    f1.couleurSuivante();
-
-    f1.ModeAnomalie();
-    f1.couleurSuivante();
-    f1.couleurSuivante();
-
-    f1.ModeNormal();
-    f1.couleurSuivante();
-    f1.couleurSuivante();
+    c.Demarre();
 }

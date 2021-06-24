@@ -13,7 +13,11 @@ void FeuTricolore::couleurSuivante() {
 				break;
 			case Couleur::Vert:
 				this->couleur = Couleur::Orange;
-				break;
+				for (int i = 0; i < 5; i++) {
+					Sleep(1000);
+					std::cout << ".";
+				}
+				std::cout << "\n";
 			case Couleur::Orange:
 				this->couleur = Couleur::Rouge;
 				break;
@@ -40,4 +44,8 @@ void FeuTricolore::Mode(bool anomalie) {
 	} else {
 		ModeNormal();
 	}
+}
+
+Couleur FeuTricolore::getCouleur() {
+	return this->couleur;
 }

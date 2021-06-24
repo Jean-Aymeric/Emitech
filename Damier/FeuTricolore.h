@@ -1,5 +1,6 @@
 #include "Couleur.h"
 #include <iostream>
+#include <Windows.h>
 #pragma once
 
 class FeuTricolore {
@@ -13,5 +14,6 @@ class FeuTricolore {
     void ModeAnomalie();
     void ModeNormal();
     void Mode(bool anomalie);
+    Couleur getCouleur();
 };
 

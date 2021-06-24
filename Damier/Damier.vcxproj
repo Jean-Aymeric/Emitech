@@ -139,10 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Carrefour.cpp" />
     <ClCompile Include="Damier.cpp" />
     <ClCompile Include="FeuTricolore.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Carrefour.h" />
     <ClInclude Include="FeuTricolore.h" />
     <ClInclude Include="Couleur.h" />
   </ItemGroup>
