@@ -2,7 +2,7 @@
 #include "FeuTricolore.h"
 
 int main() {
-    FeuTricolore f1;
+    FeuTricolore f1, f2;
 
     f1.couleurSuivante();
     f1.couleurSuivante();
