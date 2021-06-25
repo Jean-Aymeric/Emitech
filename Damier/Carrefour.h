@@ -1,4 +1,6 @@
 #include "FeuTricolore.h"
+#include "FeuTricoloreDeChantier.h"
+#include "FeuTricoloreDeChantierCasse.h"
 #pragma once
 class Carrefour {
     private:

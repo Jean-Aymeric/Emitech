@@ -1,8 +1,8 @@
 #include "Carrefour.h"
 
 Carrefour::Carrefour() {
-    this->feu1 = FeuTricolore();
-    this->feu2 = FeuTricolore();
+    this->feu1 = FeuTricoloreDeChantierCasse();
+    this->feu2 = FeuTricoloreDeChantier();
     this->feu3 = FeuTricolore();
 }
 

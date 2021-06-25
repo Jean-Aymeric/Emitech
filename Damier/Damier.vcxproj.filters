@@ -24,6 +24,12 @@
     <ClCompile Include="Carrefour.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FeuTricoloreDeChantier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeuTricoloreDeChantierCasse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FeuTricolore.h">
@@ -33,6 +39,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Carrefour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeuTricoloreDeChantier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeuTricoloreDeChantierCasse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

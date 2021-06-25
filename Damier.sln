@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Damier", "Damier\Damier.vcxproj", "{E42294FF-D86C-4B5E-BA47-4F2EFAB7295B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SalonPourAnimaux", "SalonPourAnimaux\SalonPourAnimaux.vcxproj", "{6D3A9A49-CB9A-4582-993F-3F497F189C98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{E42294FF-D86C-4B5E-BA47-4F2EFAB7295B}.Release|x64.Build.0 = Release|x64
 		{E42294FF-D86C-4B5E-BA47-4F2EFAB7295B}.Release|x86.ActiveCfg = Release|Win32
 		{E42294FF-D86C-4B5E-BA47-4F2EFAB7295B}.Release|x86.Build.0 = Release|Win32
+		{6D3A9A49-CB9A-4582-993F-3F497F189C98}.Debug|x64.ActiveCfg = Debug|x64
+		{6D3A9A49-CB9A-4582-993F-3F497F189C98}.Debug|x64.Build.0 = Debug|x64
+		{6D3A9A49-CB9A-4582-993F-3F497F189C98}.Debug|x86.ActiveCfg = Debug|Win32
+		{6D3A9A49-CB9A-4582-993F-3F497F189C98}.Debug|x86.Build.0 = Debug|Win32
+		{6D3A9A49-CB9A-4582-993F-3F497F189C98}.Release|x64.ActiveCfg = Release|x64
+		{6D3A9A49-CB9A-4582-993F-3F497F189C98}.Release|x64.Build.0 = Release|x64
+		{6D3A9A49-CB9A-4582-993F-3F497F189C98}.Release|x86.ActiveCfg = Release|Win32
+		{6D3A9A49-CB9A-4582-993F-3F497F189C98}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

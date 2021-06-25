@@ -4,7 +4,7 @@
 #pragma once
 
 class FeuTricolore {
-    private:
+    protected:
     Couleur couleur;
     bool clignotant;
 

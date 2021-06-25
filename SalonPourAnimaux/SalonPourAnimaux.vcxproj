@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e42294ff-d86c-4b5e-ba47-4f2efab7295b}</ProjectGuid>
-    <RootNamespace>Damier</RootNamespace>
+    <ProjectGuid>{6d3a9a49-cb9a-4582-993f-3f497f189c98}</ProjectGuid>
+    <RootNamespace>SalonPourAnimaux</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,18 +139,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Carrefour.cpp" />
-    <ClCompile Include="Damier.cpp" />
-    <ClCompile Include="FeuTricolore.cpp" />
-    <ClCompile Include="FeuTricoloreDeChantier.cpp" />
-    <ClCompile Include="FeuTricoloreDeChantierCasse.cpp" />
+    <ClCompile Include="Adolescent.cpp" />
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="CanicheNain.cpp" />
+    <ClCompile Include="CanicheNainMuet.cpp" />
+    <ClCompile Include="CanradEnPlastique.cpp" />
+    <ClCompile Include="Chat.cpp" />
+    <ClCompile Include="ChatDeGouttiere.cpp" />
+    <ClCompile Include="Chien.cpp" />
+    <ClCompile Include="Labrador.cpp" />
+    <ClCompile Include="Persan.cpp" />
+    <ClCompile Include="Salon.cpp" />
+    <ClCompile Include="SalonPourAnimaux.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Carrefour.h" />
-    <ClInclude Include="FeuTricolore.h" />
-    <ClInclude Include="Couleur.h" />
-    <ClInclude Include="FeuTricoloreDeChantier.h" />
-    <ClInclude Include="FeuTricoloreDeChantierCasse.h" />
+    <ClInclude Include="Adolescent.h" />
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="CanicheNain.h" />
+    <ClInclude Include="CanicheNainMuet.h" />
+    <ClInclude Include="CanradEnPlastique.h" />
+    <ClInclude Include="Chat.h" />
+    <ClInclude Include="ChatDeGouttiere.h" />
+    <ClInclude Include="Chien.h" />
+    <ClInclude Include="IParler.h" />
+    <ClInclude Include="Labrador.h" />
+    <ClInclude Include="Persan.h" />
+    <ClInclude Include="Salon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
