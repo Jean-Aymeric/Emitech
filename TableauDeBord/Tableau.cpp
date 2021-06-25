@@ -1,6 +1,6 @@
 #include "Tableau.h"
 
-void Tableau::addCapteur(DonneeDeCapteur* capteur) {
+void Tableau::addCapteur(IDonnee* capteur) {
     this->capteurs.push_back(capteur);
 }
 
@@ -9,7 +9,7 @@ void Tableau::afficher() {
     std::cout << "      TABLEAU DE BORD\n";
     std::cout << "--------------------------------------------\n";
     int i = 0;
-    for (DonneeDeCapteur* capteur : this->capteurs) {
+    for (IDonnee* capteur : this->capteurs) {
         std::cout << "--------------------------------------------\n";
         std::cout << "CAPTEUR : " << i++ << "\n";
         std::cout << capteur->getDonnees() << "\n";

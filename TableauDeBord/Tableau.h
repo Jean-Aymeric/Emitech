@@ -1,13 +1,14 @@
 #include <list>
 #include <iostream>
-#include "DonneeDeCapteur.h"
+#include "IDonnee.h"
+
 #pragma once
 class Tableau {
     private:
-    std::list<DonneeDeCapteur*> capteurs;
+    std::list<IDonnee*> capteurs;
 
     public:
-    void addCapteur(DonneeDeCapteur* capteur);
+    void addCapteur(IDonnee* capteur);
     void afficher();
 };
 

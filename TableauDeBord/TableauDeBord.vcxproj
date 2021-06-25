@@ -139,18 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DonneeCloud.cpp" />
     <ClCompile Include="DonneeDeCapteur.cpp" />
     <ClCompile Include="DonneeElectroMagnetique.cpp" />
     <ClCompile Include="DonneeForce.cpp" />
+    <ClCompile Include="DonneeMachine.cpp" />
     <ClCompile Include="DonneeVitesse.cpp" />
     <ClCompile Include="Tableau.cpp" />
     <ClCompile Include="TableauDeBord.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DonneeCloud.h" />
     <ClInclude Include="DonneeDeCapteur.h" />
     <ClInclude Include="DonneeElectroMagnetique.h" />
     <ClInclude Include="DonneeForce.h" />
+    <ClInclude Include="DonneeMachine.h" />
     <ClInclude Include="DonneeVitesse.h" />
+    <ClInclude Include="IDonnee.h" />
     <ClInclude Include="Tableau.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

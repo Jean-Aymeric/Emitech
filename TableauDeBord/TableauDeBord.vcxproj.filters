@@ -33,6 +33,12 @@
     <ClCompile Include="DonneeElectroMagnetique.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DonneeMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DonneeCloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Tableau.h">
@@ -48,6 +54,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DonneeElectroMagnetique.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDonnee.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DonneeMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DonneeCloud.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

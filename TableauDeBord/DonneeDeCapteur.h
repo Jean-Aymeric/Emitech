@@ -1,8 +1,11 @@
 #include <string>
+#include "IDonnee.h"
 #pragma once
-class DonneeDeCapteur {
+class DonneeDeCapteur : public IDonnee {
     public:
-    virtual std::string getDonnees() = 0;
     virtual void capter() = 0;
+
+    // Inherited via IDonnee
+    virtual std::string getDonnees() = 0;
 };
 
