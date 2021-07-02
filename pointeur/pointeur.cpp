@@ -15,4 +15,15 @@ int main() {
     cout << "i = " << i << endl;
     cout << "j = " << j << endl;
     cout << "k = " << k << endl;
+
+    int tableau[10];
+    for (int i = 0; i < 10; i++) {
+        tableau[i] = i;
+    }
+    // *(tableau + 0) = tableau[0]
+    // *(tableau + 1) = tableau[1]
+    incrementer(tableau[0], &tableau[1], tableau[2]);
+    for (int i = 0; i < 10; i++) {
+        cout << " tableau[" << i << "] = " << tableau[i] << endl;
+    }
 }
