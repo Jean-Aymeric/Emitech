@@ -18,3 +18,7 @@ int LigneCommande::getQuantite() {
 float LigneCommande::getPrixTotalLigne() {
     return getQuantite() * getPrixUnitaire();
 }
+
+void LigneCommande::setQuantite(int quantite) {
+    this->quantite = quantite;
+}

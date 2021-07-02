@@ -15,30 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Commande.cpp">
+    <ClCompile Include="listAndVector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LigneCommande.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ILigneCommande.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="Personne.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Commande.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LigneCommande.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ILigneCommande.h">
+    <ClInclude Include="Personne.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

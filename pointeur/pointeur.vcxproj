@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d956271d-737d-4e76-a94f-1b858100b810}</ProjectGuid>
-    <RootNamespace>Commande</RootNamespace>
+    <ProjectGuid>{37877da8-8094-45cb-bf13-54a59c7a08b8}</ProjectGuid>
+    <RootNamespace>pointeur</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,16 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Commande.cpp" />
-    <ClCompile Include="ILigneCommande.cpp" />
-    <ClCompile Include="LigneCommande.cpp" />
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Commande.h" />
-    <ClInclude Include="ILigneCommande.h" />
-    <ClInclude Include="LigneCommande.h" />
+    <ClCompile Include="pointeur.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

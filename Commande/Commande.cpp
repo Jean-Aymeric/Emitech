@@ -7,7 +7,17 @@ std::string Commande::getNumCommande() {
 }
 
 void Commande::addLigne(ILigneCommande* ligne) {
-    this->lignes.push_back(ligne);
+    bool articleTrouve = false;
+    for (ILigneCommande* lignePresente : this->lignes) {
+        if ((lignePresente->getArticle() == ligne->getArticle())
+             && (lignePresente->getPrixUnitaire() == ligne->getPrixUnitaire())) {
+            lignePresente->setQuantite(lignePresente->getQuantite() + 1);
+            articleTrouve = true;
+        }
+    }
+    if (!articleTrouve) {
+        this->lignes.push_back(ligne);
+    }
 }
 
 float Commande::getPrixTotal() {
@@ -35,6 +45,11 @@ std::ostream& operator<<(std::ostream& os, Commande& commande) {
 
 Commande operator+(Commande gauche, Commande droite) {
     Commande resultat(gauche.getNumCommande() + droite.getNumCommande());
-
+    for (ILigneCommande* ligne : gauche.getLignes()) {
+        resultat.addLigne(ligne);
+    }
+    for (ILigneCommande* ligne : droite.getLignes()) {
+        resultat.addLigne(ligne);
+    }
     return resultat;
 }

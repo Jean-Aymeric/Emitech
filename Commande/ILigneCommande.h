@@ -6,5 +6,6 @@ class ILigneCommande {
     virtual  float getPrixUnitaire() = 0;
     virtual  int getQuantite() = 0;
     virtual float getPrixTotalLigne() = 0;
+    virtual void setQuantite(int quantite) = 0;
 };
 

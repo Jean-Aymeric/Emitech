@@ -1,5 +1,5 @@
 #include <string>
-#include <list>
+#include <vector>
 #include <iostream>
 #include "ILigneCommande.h"
 #pragma once
@@ -7,7 +7,7 @@
 class Commande {
     private:
     std::string numCommande;
-    std::list<ILigneCommande*> lignes;
+    std::vector<ILigneCommande*> lignes;
 
     public:
     Commande(std::string numCommande);

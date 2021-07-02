@@ -15,5 +15,6 @@ class LigneCommande : public ILigneCommande {
     virtual float getPrixUnitaire() override;
     virtual int getQuantite() override;
     virtual float getPrixTotalLigne() override;
+    virtual void setQuantite(int quantite) override;
 };
 
